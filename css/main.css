@@ -34,6 +34,11 @@ a{
   display: inline-block;
   color:#000;
   text-decoration: none;
-  margin-left:
 
+
+}
+
+.menu{
+  display: inline-block;
+  margin-left: 100px;
 }

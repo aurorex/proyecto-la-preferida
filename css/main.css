@@ -3,7 +3,7 @@
   margin:0;
   padding:0;
 }
-
+/*AGREGANDO ESTILOS AL ENCABEZADO*/
 header{
   width: 100%;
   background-image: url("../assets/img/plato-estrella.jpg");
@@ -15,6 +15,7 @@ nav{
   width: 100%;
   height:75px;
   position: fixed;
+  z-index: 1000;
   top:0;
   background: rgba(5, 4, 16, 0.7);
 }
@@ -62,7 +63,7 @@ a{
   color: #fff;
   font-family: 'Contrail One', cursive;
 }
-
+/*AGREGANDO ESTILOS A LA SECCION "NOSOTROS" */
 .nosotros{
   width: 100%;
   height:100vh;
@@ -99,7 +100,7 @@ a{
   margin-left: 40%;
   border-radius: 20px;
 }
-
+/*AGREGANDO ESTILOS A LA SECCION "MENU"*/
 .menu{
   width: 100%;
   height: 100vh;
@@ -147,4 +148,130 @@ a{
 .carta div p{
   font-size: 15px;
 }
-.
+./* AGREGANDO ESTILOS A LA SECCION "EVENTOS" */
+section.eventos{
+ font-family: 'Open Sans', sans-serif;
+}
+section.eventos h1.titulo-eventos{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+div.twitter {
+  margin: 50px;
+  display: inline-block;
+}
+div#vbar{
+  display: inline-block;
+  width: 5px;
+  height: 300px;
+  background-color: grey;
+}
+
+div.chef-estrella{
+ display: inline-block;
+ position: relative;
+ margin-left:2%;
+ text-align: center;
+ bottom: 20px;
+}
+.chef-estrella .margin{
+  font-family: 'Open Sans', sans-serif;
+
+}
+.chef-estrella .info{
+  font-size: 20px;
+}
+
+.margin{
+ margin-bottom: 20px;
+}
+
+
+/* ESTILOS PARA CONTACTOS*/
+section.contactos{
+  background-color: #ffffbf;
+  font-family: 'Open Sans', sans-serif;
+}
+section.contactos h1{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+section.contactos iframe{
+  margin: 50px;
+  margin-left: 200px;
+}
+ul.lista-contactos{
+  list-style: none;
+  display: inline-block;
+  width: 350px;
+  position: relative;
+  bottom: 120px;
+  left: 150px;
+}
+ul.lista-contactos li{
+  padding-bottom: 30px;
+}
+/* ESTILOS PARA EL FOOTER */
+footer{
+  width: 100%;
+  height: 220px;
+  background-color: rgb(5, 4, 16);
+  bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul.iconos-footer{
+  list-style: none;
+  width: 140px;
+  display:inline-block;
+  position: relative;
+  margin-left: 450px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+ul.iconos-footer li{
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+ul.iconos-footer .icon-facebook-square{
+  color: #39599f;
+}
+ul.iconos-footer .icon-twitter{
+  color: #45b0e3;
+}
+ul.iconos-footer .fa-instagram{
+  color: #dd356c;
+}
+footer p{
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+div#registrate, .titulo-footer{
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+div#registrate{
+  width: 200px;
+  margin: 40px;
+}
+div#registrate form{
+  display: inline-block;
+  padding-top: 10px;
+  margin-left: 15px;
+}
+.touppercase{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px;
+}
